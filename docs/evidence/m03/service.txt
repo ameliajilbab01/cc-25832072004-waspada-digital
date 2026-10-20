@@ -1,0 +1,17 @@
+● cc-m03.service - Waspada Digital (Gunicorn)
+     Loaded: loaded (/etc/systemd/system/cc-m03.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-10-20 22:20:47 WIB; 2min 2s ago
+   Main PID: 1637 (gunicorn)
+      Tasks: 4 (limit: 532)
+     Memory: 30.5M (peak: 31.0M)
+        CPU: 216ms
+     CGroup: /system.slice/cc-m03.service
+             ├─1637 /home/azureuseramel/app/.venv/bin/python3 /home/azureuseramel/app/.venv/bin/gunicorn --workers 1 --threads 2 --bind 127.0.0.1:8000 app:app
+             └─1640 /home/azureuseramel/app/.venv/bin/python3 /home/azureuseramel/app/.venv/bin/gunicorn --workers 1 --threads 2 --bind 127.0.0.1:8000 app:app
+
+Oct 20 22:20:47 cc-m03-25832072004 systemd[1]: Started cc-m03.service - Waspada Digital (Gunicorn).
+Oct 20 22:20:47 cc-m03-25832072004 gunicorn[1637]: [2026-10-20 22:20:47 +0700] [1637] [INFO] Starting gunicorn 26.2.0
+Oct 20 22:20:47 cc-m03-25832072004 gunicorn[1637]: [2026-10-20 22:20:47 +0700] [1637] [INFO] Listening at: http://127.0.0.1:8000 (1637)
+Oct 20 22:20:47 cc-m03-25832072004 gunicorn[1637]: [2026-10-20 22:20:47 +0700] [1637] [INFO] Using worker: gthread
+Oct 20 22:20:47 cc-m03-25832072004 gunicorn[1640]: [2026-10-20 22:20:47 +0700] [1640] [INFO] Booting worker with pid: 1640
+Oct 20 22:20:47 cc-m03-25832072004 gunicorn[1637]: [2026-10-20 22:20:47 +0700] [1637] [INFO] Control socket listening at /home/azureuseramel/.gunicorn/gunicorn.ctl
