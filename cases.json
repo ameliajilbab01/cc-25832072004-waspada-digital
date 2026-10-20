@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "judul": "Pesan hadiah undian",
+    "jenis": "phishing",
+    "isi_pesan": "SELAMAT! Nomor Anda terpilih memenangkan Rp50.000.000. Segera klaim dalam 1 jam di http://hadiah-resmi.example.com dan kirimkan kode OTP yang masuk ke HP Anda.",
+    "penjelasan": "Ciri-cirinya: nada mendesak (batas 1 jam), hadiah dari undian yang tidak pernah Anda ikuti, domain tidak resmi, dan permintaan kode OTP. OTP tidak boleh dibagikan kepada siapa pun."
+  },
+  {
+    "id": 2,
+    "judul": "Broadcast air rebusan",
+    "jenis": "hoaks",
+    "isi_pesan": "BERITA PENTING! Minum air rebusan daun ini tiga kali sehari terbukti menyembuhkan semua penyakit dalam seminggu. Sebarkan ke 10 grup sebelum terlambat! (Kata dokter di luar negeri)",
+    "penjelasan": "Ciri-cirinya: klaim berlebihan tanpa sumber yang jelas, rujukan samar ('kata dokter di luar negeri'), dan dorongan untuk menyebarkan segera. Cek klaim kesehatan ke sumber resmi seperti Kementerian Kesehatan."
+  },
+  {
+    "id": 3,
+    "judul": "Pemberitahuan dari bank",
+    "jenis": "phishing",
+    "isi_pesan": "Yth. nasabah, akun Anda akan diblokir hari ini. Verifikasi data di https://bank-verifikasi.example.com dengan memasukkan PIN dan nomor kartu Anda.",
+    "penjelasan": "Ciri-cirinya: ancaman pemblokiran, tautan bukan domain resmi bank, dan permintaan PIN serta nomor kartu. Bank tidak pernah meminta PIN lewat pesan."
+  },
+  {
+    "id": 4,
+    "judul": "Jadwal ujian dari sekolah",
+    "jenis": "valid",
+    "isi_pesan": "Pengumuman: Ujian tengah semester dilaksanakan Senin, 3 November. Jadwal lengkap dapat dilihat di papan pengumuman sekolah atau ditanyakan kepada wali kelas masing-masing.",
+    "penjelasan": "Pesan ini valid: tidak ada tautan mencurigakan, tidak meminta data pribadi, tidak mendesak, dan bisa diverifikasi langsung ke pihak sekolah."
+  }
+]
